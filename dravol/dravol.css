@@ -1,0 +1,45 @@
+body {
+    font-family: Tahoma;
+    margin: 0%;
+    padding: 0%;
+}
+
+div {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    margin: 10px auto 10px auto;
+    text-align: justify;
+    width: 980px;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.fundo-vermelho {
+    background-color: #ea1a1a;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.p-logo {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.link-1 {
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
