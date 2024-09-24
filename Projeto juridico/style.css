@@ -1,0 +1,18 @@
+.secao-topo{
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-largura-limitada{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.secao-topo p{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h1, h2{
+    margin: 0;
+}
