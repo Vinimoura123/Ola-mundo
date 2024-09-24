@@ -33,10 +33,23 @@ p {
 body{
     font-family: 'Lato', sans-serif;
   }
-  
-  .links {
+
+  .fundo-vermelho {
+    background-color: rgb(173, 16, 16);
+  }
+
+  .links  {
     position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .a1 {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(173, 16, 16);
+    border-radius: 50px;
+    font-size: 30px;
+  }
+  
