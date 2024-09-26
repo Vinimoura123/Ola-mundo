@@ -7,7 +7,7 @@ body {
 div {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-decoration: none;
 }
 
@@ -20,36 +20,92 @@ p {
 
 }
 
-.img-logo {
-    width: 200px;
-    height: 200PX;
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+.altura-limitada{
+  min-height: 180px;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
-  }
+.fundo-vermelho{
+  background-color: rgb(176, 16, 27);
+  min-height: 180px;
+}
 
-  .fundo-vermelho {
-    background-color: rgb(173, 16, 16);
-  }
+.img-logo{
+  width: 150px;
+  height: 150px;
+  min-height: 1px;
+}
 
-  .links  {
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.p-logo {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+  
+}
 
-  .a1 {
-    text-decoration: none;
-    color: aliceblue;
-    background-color: rgb(173, 16, 16);
-    border-radius: 50px;
-    font-size: 30px;
-  }
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #e4b818, #d0df24, #fff200, #ff5100, #f62905, #ff6835, #ff0000, #fb2323, #d01313);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+.img-banner{
   
