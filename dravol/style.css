@@ -29,9 +29,13 @@ p {
   min-height: 180px;
 }
 
+.borda-banner{
+  border-radius: 50px;
+}
+
 .img-logo{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   min-height: 1px;
 }
 
@@ -107,5 +111,29 @@ p {
   100% { background-position: 0 0; }
 }
 
-.img-banner{
+.largura-limitada{
+  width: 100%;
+  max-width: 1300px;
+}
+
+.links-1 {
+  border-radius: 50px;
+  width: 400px; 
+  display: inline;
   
+}
+
+.links-9{
+  border-radius: 50px;
+  width: 400px; 
+  display: inline;
+}
+
+
+
+.red {
+  font-weight: bold;
+  color: #d01313;
+}
+
+
