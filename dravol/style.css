@@ -1,7 +1,166 @@
+/* Início CSS Global */
 * {
   margin: 0;
   font-family: sans-serif;
   padding: 0;
   text-decoration: none;
   font-weight: 600;
+  max-width: 1513px;
+  box-sizing: border-box;
 }
+
+p {
+  text-align: center;
+  width: 100%;
+  min-width: 300px;
+  height: 15px 10px;
+}
+
+h3 {
+  text-align: center;
+  height: 65px ;
+  margin: 0 0 45px;
+}
+
+/* Final CSS Global */
+
+/* Seção topo */
+.container-logo{
+  background-color: rgb(255, 255, 255);  
+}
+
+.container-logo img {
+  width: 200px;
+}
+
+.flex-logo p {
+  color: rgb(171, 8, 8);
+  margin-left: 50px;
+  margin-top: 20px;
+  max-width: 1300px;
+  font-size: 75px;
+  text-align: left;
+}
+
+.flex-logo{
+  display: flex;
+  align-items: center;
+}
+
+.flex-logo{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.container-links {
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgb(171, 8, 8);
+  padding: 30px;
+}
+
+.container-links a{
+  background-color: rgb(219, 48, 48);
+  padding: 15px;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 30px;
+}
+/* Final topo */
+
+/* Seção sobre */
+.container-sobre {
+  background-image: url(img/serviços.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-sobre h3{
+  margin-top: 10px;
+  font-size: 40px;
+  color: rgb(171, 8, 8);
+}
+
+.container-sobre p{
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 30px;
+  color: rgb(72, 5, 5);
+  text-align: justify;
+}
+
+.container-sobre span{
+  color: #ff0000;
+}
+
+.container-titulo-sobre {
+  max-width: 800px;
+  border-radius: 10px;
+  margin: 0 auto 30px;
+  padding: 70px;
+  box-shadow: 0 8px 32px #1f26875e;
+  background: #ffffffc4;
+}
+/* Final sobre */
+
+/* Seção serviços */
+.container-servico {
+  background-color: rgb(171, 8, 8);
+}
+
+.container-servico h3 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.imagem-servicos {
+  max-width: 900px;
+  margin: 0 auto 30px;
+  display: flex;
+}
+
+.imagem-servicos img {
+  width: 300px;
+  padding: 10px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+  border-radius: 5px;
+}
+/* Final serviços */
+
+/* Seção contatos */
+
+.container-contatos h3{
+  margin-top: 10px;
+  font-size: 40px;
+  color: rgb(171, 8, 8);
+}
+
+.container-contatos p {
+  max-width: 800px;
+  margin-left: 500px;
+  font-size: 30px;
+  color: rgb(72, 5, 5);
+  text-align: justify;
+}
+
+.box-contatos {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.box-contatos img{
+  width: 30px;
+}
+
+/* Seção rodapé */
+.rodape {
+  background-color: rgb(171, 8, 8);
+  padding: 10px 0;
+}
+.text-rodape {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
