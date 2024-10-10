@@ -138,20 +138,27 @@ h3 {
 
 .container-contatos p {
   max-width: 800px;
-  margin-left: 500px;
+  margin-left: 530px;
   font-size: 30px;
   color: rgb(72, 5, 5);
   text-align: justify;
 }
 
-.box-contatos {
+.container-contatos div {
+  margin-top: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  margin-top: 40px;
 }
 
-.box-contatos img{
-  width: 30px;
+.redes-sociais  {
+  
 }
+
+.redes-sociais img {
+  width: 70px;
+  margin-bottom: 30px;
+  padding: 10px;
+} 
 
 /* Seção rodapé */
 .rodape {
