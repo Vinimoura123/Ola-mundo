@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #fff;
+    color: #ff0000;
+    padding: 40px 0;
+}
+
+footer .line-footer1 {
+    text-align: center;
+    border-bottom: 1px #ff0000;
+    padding-bottom: 40px;
+}
+
+.line-footer1 h2 {
+    font-size: 2.5rem;
+}
+
+.line-footer1 p {
+    font-size: 1.2rem;
+    margin: 10px 0 10px 0;
+}
+
+.line-footer1 form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-footer1 form input[type=email] {
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ff0000;
+    color: #ff0000
+    padding: 10px;
+    outline: 0;
+}
+
+.line-footer1 form input[type=submit] {
+    width: 80px;
+    height: 40px;
+    background-color: #f20744;
+    border: 0;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.line-footer1 form input[type=submit]:hover{
+    background-color: #ffffff;
+    color: #f20744;
+
+}
+
+footer .line-footer2 {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+
+}
+
+
+footer .line-footer2 p{
+    text-align: left;
+}
+
+footer .line-footer2 .box-line-footer {
+    max-width: calc(100% / 5);
+}
+
+footer .box-line-footer img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.line-footer2 .box-line-footer h3 {
+    color: #f20744;
+    margin-bottom: 20px;
+}
+
+.line-footer2 .box-line-footer a {
+    color: #ff0000;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.box-line-footer .btn-redes a {
+    display: inline;
+}
+
+.box-line-footer .btn-redes button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid #ff0044;
+    color: #ff0044;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: .2s;
+}
+
+.box-line-footer .btn-redes button:hover{
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+footer .line-footer3 {
+    padding-top: 40px;
+    text-align: center;
+}
