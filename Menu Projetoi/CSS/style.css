@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo do header */
+
+header {
+    width: 100%;
+    padding: 40px 0 ;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    max-width: 100px;
+}
+
+header .menu-desktop nav ul {
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-desktop nav a:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+header .btn-contato button {
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 0, 0);
+    color: #ff0000;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    background-color: #ff0000;
+    color: #fff;
+    transition: 0.5s;
+}
