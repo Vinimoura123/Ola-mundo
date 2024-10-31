@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+ 
+/* - topo -*/
+
+.topo {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo .text-logo p {
+    font-size: 15px;
+    color: #2f86d6;
+}
+
+.img-topo {
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.link {
+    margin-top: 25px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.link a {
+   color: #233032;
+   text-decoration: none;
+   margin: 15px;
+   font-size: 16px;
+}
+/* - topo -*/
+
+/* - Banner -*/
+.secao-banner {
+    background-color: #2f86d6;
+}
+
+.container-banner {
+    position: relative;
+    padding: 180px 0px;
+}
+
+.container-banner div {
+     width: 470px;
+     color: #fff;
+}
+
+.container-banner div p {
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+.container-banner div h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+
+.container-banner img {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+/* - Anuncio 1 -*/
+
+.secao-anuncio-1 {
+    background-color: #233032;
+}
+
+.container-anuncio {
+    position: relative;
+    padding: 40px 0;
+}
+
+.container-anuncio div{
+    width: 600px;
+    color: #fff;
+}
+
+.container-anuncio h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.container-anuncio p{
+    font-size: 13px;
+}
+
+.secao-anuncio-1 a {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.secao-anuncio-1 a img {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    margin-left: 20px;
+    width: 20px;
+}
+
+.container-anuncio a span {
+    margin-left: 30px;
+}
+
+/* Seção informação */
+
+.secao-informacao {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.secao-informacao h2{
+    width: 900px;
+    font-size: 32px;
+    margin: 0px auto 60px;
+}
+
+.secao-informacao span{
+    color: #2f86d6;
+}

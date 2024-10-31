@@ -14,11 +14,22 @@ body {
     margin: 0 auto;
 }
 
+header .btn-contato button, .hero-site button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 0, 0);
+    color: #ff0000;
+    cursor: pointer;
+}
+
 /* Estilo do header */
 
 header {
     width: 100%;
-    padding: 40px 0 ;
+    padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .interface{
@@ -44,6 +55,7 @@ header .menu-desktop nav ul li a {
     color: #ff0000;
     text-decoration: none;
     display: inline-block;
+    font-weight: 600;
 }
 
 .menu-desktop nav a:hover{
@@ -51,18 +63,58 @@ header .menu-desktop nav ul li a {
     transition: .2s;
 }
 
-header .btn-contato button {
+header .btn-contato button{
     width: 140px;
     height: 50px;
-    font-size: 18px;
-    background-color: transparent;
-    border: 1px solid rgb(255, 0, 0);
-    color: #ff0000;
-    cursor: pointer;
 }
 
-header .btn-contato button:hover{
+header .btn-contato button:hover, .hero-site button:hover{
     background-color: #ff0000;
     color: #fff;
     transition: 0.5s;
+}
+
+/* Estilo do hero */
+
+section.hero-site {
+    height: 98vh;
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.hero-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 700;
+    color: #c71717;
+}
+
+.hero-site .txt-hero p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero-site .txt-hero p span {
+    display: block;
+}
+
+.hero-site button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
 }
