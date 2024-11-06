@@ -13,7 +13,7 @@
 }
 
 header .btn-contato button, .hero-site button {
-    font-size: 18px;
+    font-size: 20px;
     background-color: transparent;
     border: 1px solid rgb(255, 0, 0);
     color: #ff0000;
@@ -23,11 +23,12 @@ header .btn-contato button, .hero-site button {
 /* Estilo do header */
 
 header {
+    background-color: #fff;
     width: 100%;
-    padding: 40px 0;
-    position: ;
+    padding: 10px 0;
     top: 0;
     left: 0;
+    position: fixed;
 }
 
 header .interface{
@@ -53,7 +54,7 @@ header .menu-desktop nav ul li a {
     color: #ff0000;
     text-decoration: none;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .menu-desktop nav a:hover{
@@ -62,7 +63,7 @@ header .menu-desktop nav ul li a {
 }
 
 header .btn-contato button{
-    width: 140px;
+    width: 160px;
     height: 50px;
 }
 
@@ -75,7 +76,7 @@ header .btn-contato button:hover, .hero-site button:hover{
 /* Estilo do hero */
 
 section.hero-site {
-    height: 70vh;
+    height: 95vh;
     background-color:#fff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,8 +92,8 @@ section.hero-site {
 
 .hero-site .txt-hero h1 {
     color: #c71717;
-    font-size: 4em;
-    line-height: 70px;
+    font-size: 5em;
+    line-height: 100px;
     font-weight: 200;
 }
 
@@ -105,7 +106,7 @@ section.hero-site {
 .hero-site .txt-hero p {
     font-size: 20px;
     font-weight: 300;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .hero-site .txt-hero p span {
@@ -119,6 +120,36 @@ section.hero-site {
 }
 
 /* MENU */
+
+/* SOBRE*/
+div.container-sobre{
+    height: 70vh;
+    width: 100%;
+    padding: 5rem 1.3rem;
+    font-size: 32px;
+    text-align:left;
+    color: #ff0000;
+}
+
+div.container-sobre .sobre h1{
+    text-align: left;
+    margin-left: 320px;
+    font-weight: 200;
+    padding: 40px 0;
+}
+
+div.container-sobre .sobre p{
+    text-align:left;
+    margin: 0 320px;
+    font-size: 24px;
+
+}
+
+div.container-sobre .sobre span{
+    color: #c71717;
+    font-weight: bold;
+}
+/* SOBRE*/
 
 /* CARDS */
 body main {
@@ -138,7 +169,7 @@ body main {
 
 div.txt-card{
     background-color: rgb(171, 8, 8);
-    padding: 1rem 1.3rem;
+    padding: 7rem 1.3rem;
     font-size: 32px;
     text-align:left;
     color: #fff;
@@ -187,7 +218,7 @@ main.cards section.card span {
     font-weight: 400px;
     max-width: 250px;
     font-size: 80%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 main.cards section.card .icon{
@@ -206,6 +237,7 @@ main.cards section.card {
 @media screen and (max-width: 1050px) {
     main.cards {
         flex-direction: column;
+        justify-content: flex-end;
     }
 
     main.cards section.card {
