@@ -194,7 +194,7 @@ main.cards .container-cards{
 main.cards section.card {
     display: flex;
     flex-direction: column;
-    align-items:baseline;
+    align-items: stretch;
     text-align: justify;
     background-color: #fff;
     padding: 2rem 1.3rem;
@@ -234,22 +234,6 @@ main.cards section.card {
     box-shadow: 20px 20px 50px -30px;
 }
 
-@media screen and (max-width: 1050px) {
-    main.cards {
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
-
-    main.cards  section.card:last-child{
-        margin-bottom: 0;
-    }
-
-}
 
 /* RODAPÉ */
 
@@ -371,4 +355,28 @@ footer .box-line-footer img {
 footer .line-footer3 {
     padding-top: 40px;
     text-align: center;
+}
+
+@media screen and (max-width: 1600px) {
+    /* Classes Gerais  */
+    .flex
+    /* Cabeçario */
+
+    section.menu-desktop, .btn-contato, .txt-hero a{
+        display: none;
+    }
+
+    main.cards {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards  section.card:last-child{
+        margin-bottom: 0;
+    }
 }
