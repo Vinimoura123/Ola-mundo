@@ -163,7 +163,7 @@ body main {
     flex-wrap: wrap;
     
 
-    color: #434343;
+    color: #000000;
     font-size: 16px;
 }
 
@@ -182,7 +182,7 @@ div.txt-card h1{
 
 main.cards{
     display: flex;
-    padding: 32px;
+    padding: 30px;
 }
 
 main.cards .container-cards{
@@ -197,11 +197,12 @@ main.cards section.card {
     align-items: stretch;
     text-align: justify;
     background-color: #fff;
-    padding: 2rem 1.3rem;
+    padding: 2rem 1.5rem;
     border-radius: 8px;
-    max-height: 276px;
-    margin-left: 20px;
-    margin-top: 20px;
+    max-height: 376px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
 }
 
 main.cards section.card:first-child{
